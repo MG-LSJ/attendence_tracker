@@ -1,0 +1,25 @@
+name: attendance_tracker
+description: "A new Flutter project."
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.0 <4.0.0"
+
+dependencies:
+  app_settings: ^5.1.1
+  dynamic_color: ^1.6.8
+  flutter:
+    sdk: flutter
+  flutter_ble_peripheral_central: ^0.0.5
+  permission_handler: ^11.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
